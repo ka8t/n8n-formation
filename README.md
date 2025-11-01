@@ -1,7 +1,7 @@
 
 # 🚀 Installation et utilisation de n8n avec Docker Compose sur macOS 12
 
-Ce guide explique comment installer et exécuter **n8n** via **Docker Compose** sur macOS 12,  
+Ce guide explique comment installer et exécuter **n8n** via **Docker Compose** sur macOS 12,  
 avec un **stockage local** dans un dossier de projet spécifique.
 
 ---
@@ -12,13 +12,13 @@ Nous allons stocker toutes les données n8n dans un dossier local à votre proje
 Voici le chemin de travail choisi :
 
 ```
-/Users/k/Documents/Documents - MacBook Pro de k/Code/n8n-formation
+/n8n-formation
 ```
 
 Créez un sous-dossier dédié aux données persistantes :
 
 ```bash
-mkdir -p "/Users/k/Documents/Documents - MacBook Pro de k/Code/n8n-formation/n8n_data"
+mkdir -p "./n8n-formation/n8n_data"
 ```
 
 Ce dossier contiendra les fichiers internes de n8n (workflows, credentials, etc.).
@@ -31,7 +31,7 @@ Créez un fichier `docker-compose.yml` à la racine de votre dossier de projet 
 
 **Chemin complet :**
 ```
-/Users/k/Documents/Documents - MacBook Pro de k/Code/n8n-formation/docker-compose.yml
+./n8n-formation/docker-compose.yml
 ```
 
 **Contenu :**
@@ -68,7 +68,7 @@ services:
 Depuis le dossier de votre projet, exécutez :
 
 ```bash
-cd "/Users/k/Documents/Documents - MacBook Pro de k/Code/n8n-formation"
+cd "./n8n-formation"
 docker compose up -d
 ```
 
@@ -109,7 +109,7 @@ docker compose logs -f
 Toutes les données persistantes sont stockées dans le dossier local :
 
 ```
-/Users/k/Documents/Documents - MacBook Pro de k/Code/n8n-formation/n8n_data
+./n8n-formation/n8n_data
 ```
 
 Vous pouvez sauvegarder ce dossier manuellement ou via un script (ex : cron)  
