@@ -44,6 +44,7 @@ Choisissez ensuite selon vos besoins :
 
 ---
 
-**Auteur :** Projet n8n Formation  
+**Auteur :** karim.it.project@gmail.com  
 **Licence :** MIT  
-**Dernière mise à jour :** Générée automatiquement par ChatGPT
+**Dernière mise à jour : 02/11/2025 
+** Générée (presque) automatiquement par ChatGPT et Moi
