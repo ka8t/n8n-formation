@@ -1,1 +1,0 @@
-install_n8n-MacOs.txt
