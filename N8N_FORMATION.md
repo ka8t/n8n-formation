@@ -142,11 +142,23 @@ Il permet de sauvegarder, suivre et partager les modifications d’un projet.
 # 🧱 Partie 2 — Structure du projet
 
 ```
-n8n-formation/
+├── N8N_FORMATION.md
+├── N8N_PRO.md
+├── README.md
+├── docker-compose-pro.yml
 ├── docker-compose.yml
-├── n8n_data/
+├── n8n_data
+│   ├── binaryData
+│   ├── config
+│   ├── database.sqlite
+│   ├── git
+│   ├── n8nEventLog-1.log
+│   ├── n8nEventLog-2.log
+│   ├── n8nEventLog.log
+│   ├── nodes
+│   │   └── package.json
+│   └── ssh
 ├── n8n_manage.sh
-└── README.md
 ```
 
 ### 📂 Pourquoi `n8n_data` est dans le dossier du projet ?

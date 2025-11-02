@@ -19,7 +19,7 @@
 #   Linux (Debian/Ubuntu/CentOS/Fedora), macOS, Windows (Git Bash ou WSL2).
 # ============================================================
 
-COMPOSE_FILE="docker-compose.yml"
+COMPOSE_FILE="docker-compose-pro.yml"
 
 function _has() { command -v "$1" >/dev/null 2>&1; }
 function _section() { echo -e "\n============================================================\n $1\n============================================================"; }

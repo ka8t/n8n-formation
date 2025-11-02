@@ -53,12 +53,23 @@ Avant de commencer, assurez-vous que votre système dispose de :
 # 🧱 Structure du projet
 
 ```
-n8n-formation/
+├── N8N_FORMATION.md
+├── N8N_PRO.md
+├── README.md
+├── docker-compose-pro.yml
 ├── docker-compose.yml
+├── n8n_data
+│   ├── binaryData
+│   ├── config
+│   ├── database.sqlite
+│   ├── git
+│   ├── n8nEventLog-1.log
+│   ├── n8nEventLog-2.log
+│   ├── n8nEventLog.log
+│   ├── nodes
+│   │   └── package.json
+│   └── ssh
 ├── n8n_manage.sh
-├── .env
-├── n8n_data/
-└── README.md
 ```
 
 > 📁 Le dossier `n8n_data` contient les données persistantes (workflows, credentials, logs…)
